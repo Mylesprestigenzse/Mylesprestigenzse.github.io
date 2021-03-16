@@ -113,7 +113,9 @@ hr {
     outline-color: gold;
 }
 
-#signUpModal {
-    background-image: logo1.png
+.modal-content {
+    background-image: url("../images/3d glass window logo mockup N.jpeg");
+    background-position: bottom 100px center;
+
 }
 
