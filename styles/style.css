@@ -1,0 +1,119 @@
+body {
+    background-color:  black;
+    color: white;
+}
+
+#logo {
+    height: 80px;
+}
+
+p {
+    line-height: 2;
+    text-align: justify;
+}
+p1 {
+    line-height: 2;
+    text-align: center;
+}
+
+h4, strong {
+    color: gold;
+}
+h4, strong2 {
+    color: white;
+
+}
+
+.nav-item a:hover {
+    color: gold !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+ul li a {
+    position: relative;
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gold;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: left
+}
+
+ul li a:hover:before, ul li a:hover:after {
+    transform: scaleX(1);
+}
+
+ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gold;
+    transform: scaleX(0);
+    transition: all 0.5s;
+    transform-origin: right
+}
+
+#intro-content {
+    background-image: url("../images/bg.png");
+    background-size: 94px;
+}
+
+#intro-text {
+    margin: 50px 0 50px 0;
+}
+
+section {
+    margin: 40px 0 50px 0;
+}
+
+#intro-text-master, .headers {
+    font-size: 50px;
+    font-family: Impact, Helvatica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 10px;
+}
+
+hr {
+    border-color: #595959;
+}
+
+.modal-content {
+    background-color: #262626;
+    color: gold;
+}
+
+#social-icons i {
+    margin: 0 5px;
+    font-size: 2rem;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+#social-icons i:hover {
+    color: black;
+}
+
+#button {
+    color: gold;
+    outline-color: gold;
+}
+
+#signUpModal {
+    background-image: logo1.png
+}
+
