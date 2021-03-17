@@ -3,7 +3,7 @@
 <head>
     <title>Toa Fitness</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=.5">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -207,14 +207,16 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="signUpModalLabel">Inquiries<br>Is there something specific you were looking for that you didn't find
-                    throughout the website? Let me know how I can help you. Fill in the form below and send us a message.</h5>
+                <h5 class="modal-title" id="signUpModalLabel">Inquiries</h5>
                 <div></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" style="color: gold">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
+                <div class="inquiries">Is there something specific you were looking for that you didn't find
+                    throughout the website? Let me know how I can help you. Fill in the form below and send us a message.</div>
+                <div class="modal-body">
                 <form method="post" action="scripts/mail_handler.php" id="signup-form">
                     <div class="form-group">
                         <div class="row">
