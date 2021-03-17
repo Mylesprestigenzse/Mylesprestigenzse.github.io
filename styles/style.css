@@ -114,9 +114,13 @@ hr {
 }
 
 .modal-content {
-    background-image: url("../images/3d glass window logo mockup N.jpeg");
+    background-image: url("../images/");
     background-position: bottom 100px center;
 
+}
+.inquiries{
+    color: whitesmoke;
+    font-min-size: 5px;
 }
 
 
