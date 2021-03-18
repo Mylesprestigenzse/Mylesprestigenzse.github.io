@@ -112,7 +112,7 @@ hr {
     color: gold;
     outline-color: gold;
 }
-
+/*sign up page*/
 .modal-content {
     background-image: url("../images/");
     background-position: bottom 100px center;
@@ -126,7 +126,8 @@ hr {
 }
 
 
-
+/*mobile friendly*/
+/*headers*/
 @media screen and (max-width: 600px) {
     .text-uppercase, .headers {
         font-size: 20px;
@@ -140,7 +141,7 @@ hr {
     }
 }
 
-
+/*pictures scale to mobile size*/
 @media screen and (max-width: 600px) {
     .small-screen {
         font-size: 8px;
@@ -151,7 +152,7 @@ hr {
         display: none;
     }
 }
-/*intro text etc*/
+/*intro text heading*/
 @media screen and (max-width: 600px) {
     #intro-text-master {
         font-size: 30px;
