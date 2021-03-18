@@ -121,22 +121,49 @@ hr {
 .inquiries {
     color: whitesmoke;
     font-min-size: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.text-uppercase
 
-@media screen and (min-width: 600px) {
-    div.text-uppercase {
-        font-size: 10px;
+
+@media screen and (max-width: 600px) {
+    .text-uppercase, .headers {
+        font-size: 20px;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 600px) {
-    div.text-uppercase {
-        font-size: 80px;
+    #intro-text-master {
+        font-size: 30px;
     }
 }
 
 
+@media screen and (max-width: 600px) {
+    .small-screen {
+        font-size: 8px;
+      display: none;
+    }
+}@media screen and (min-width: 600px) {
+    .big-screen {
+        display: none;
+    }
+}
+/*intro text etc*/
+@media screen and (max-width: 600px) {
+    #intro-text-master {
+        font-size: 30px;
+        text-align: center;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .intro-text {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+/*about us*/
 
