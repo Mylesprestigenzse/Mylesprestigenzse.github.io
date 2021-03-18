@@ -131,6 +131,7 @@ hr {
 @media screen and (max-width: 600px) {
     .text-uppercase, .headers {
         font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -155,14 +156,14 @@ hr {
 @media screen and (max-width: 600px) {
     #intro-text-master {
         font-size: 30px;
-
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 600px) {
     .intro-text {
         font-size: 30px;
-
+        text-align: center;
     }
 }
 /*about us*/
