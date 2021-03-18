@@ -118,10 +118,25 @@ hr {
     background-position: bottom 100px center;
 
 }
-.inquiries{
+.inquiries {
     color: whitesmoke;
     font-min-size: 5px;
 }
+
+.text-uppercase
+
+@media screen and (min-width: 600px) {
+    div.text-uppercase {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.text-uppercase {
+        font-size: 10px;
+    }
+}
+
 
 
 
