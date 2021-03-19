@@ -186,10 +186,3 @@ hr {
         width: 100%;
     }
 }
-/*button*/
-}@media screen and (min-width: 600px) {
-    .to-whom {
-        height: 10px;
-        width: 10px;
-    }
-}
