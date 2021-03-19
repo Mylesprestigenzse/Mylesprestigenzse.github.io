@@ -152,7 +152,7 @@ hr {
 /*intro text heading*/
 @media screen and (max-width: 600px) {
     #intro-text-master {
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
     }
 }
