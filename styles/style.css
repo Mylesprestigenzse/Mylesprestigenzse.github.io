@@ -142,7 +142,6 @@ hr {
 /*pictures scale to mobile size*/
 @media screen and (max-width: 600px) {
     .small-screen {
-        font-size: 8px;
       display: none;
     }
 }@media screen and (min-width: 600px) {
@@ -168,7 +167,7 @@ hr {
 
 @media screen and (max-width: 600px) {
     h4{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 }
@@ -180,7 +179,6 @@ hr {
     .big-screen {
         display: none;
     }
-}
 
 }@media screen and (min-width: 600px) {
     .img {
