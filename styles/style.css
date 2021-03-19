@@ -166,5 +166,11 @@ hr {
         text-align: center;
     }
 }
-/*about us*/
+/*headers*/
 
+@media screen and (max-width: 600px) {
+    h4{
+        font-size: 25px;
+        text-align: center;
+    }
+}
