@@ -187,3 +187,9 @@ hr {
     }
 }
 /*button*/
+}@media screen and (min-width: 600px) {
+    .to-whom {
+        height: auto;
+        width: 100%;
+    }
+}
