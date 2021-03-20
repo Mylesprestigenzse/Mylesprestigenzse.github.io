@@ -22,10 +22,7 @@ h4, strong {
 h4, strong2 {
     color: white;
 
-}h4, strong3 {
-     color: white;
-
- }
+}
 
 .nav-item a:hover {
     color: gold !important;
@@ -156,7 +153,7 @@ hr {
 /*intro text heading*/
 @media screen and (max-width: 600px) {
     #intro-text-master {
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
     }
 }
