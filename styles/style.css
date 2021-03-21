@@ -125,7 +125,6 @@ hr {
     margin-right: 20px;
 }
 
-
 /*mobile friendly*/
 /*headers*/
 @media screen and (max-width: 600px) {
@@ -173,14 +172,6 @@ hr {
         text-align: center;
     }
 }
-@media screen and (max-width: 600px) {
-    .small-screen {
-        display: none;
-    }
-}@media screen and (min-width: 600px) {
-    .big-screen {
-        display: none;
-    }
-}
+
 
 
